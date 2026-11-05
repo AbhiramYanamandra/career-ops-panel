@@ -1,0 +1,7 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "hiring-panel-skill",
+  "description": "The hiring panel skill for Claude Code",
+  "owner": {"name": "Alex Chen"},
+  "plugins": [{"name": "hiring-panel-skill", "description": "Seven Claudes try to reject your resume, then it rebuilds it with every mistake fixed.", "source": "./", "category": "productivity", "author": {"name": "Alex Chen", "url": "https://chen.media"}, "homepage": "https://chen.media/guides/run-your-resume-past-7-claudes-that-try-to-reject-it-set-up-the-free-hiring-panel-skill"}]
+}

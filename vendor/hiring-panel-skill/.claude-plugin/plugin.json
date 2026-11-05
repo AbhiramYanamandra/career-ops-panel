@@ -1,0 +1,10 @@
+{
+  "name": "hiring-panel-skill",
+  "description": "Seven Claudes try to reject your resume (an automated screen, a hiring manager and five readers who each judge it alone), then it rebuilds your resume with every mistake fixed.",
+  "version": "1.0.0",
+  "author": {"name": "Alex Chen", "url": "https://chen.media"},
+  "homepage": "https://chen.media/guides/run-your-resume-past-7-claudes-that-try-to-reject-it-set-up-the-free-hiring-panel-skill",
+  "repository": "https://github.com/alexyc9381/hiring-panel-skill",
+  "license": "MIT",
+  "keywords": ["claude-code", "claude-skills", "resume", "job-search", "hiring", "career"]
+}

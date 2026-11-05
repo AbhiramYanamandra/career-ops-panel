@@ -1,0 +1,26 @@
+{
+  "candidate": { "name": "Jordan Example" },
+  "database": { "path": "evidence-database.json" },
+  "template": {
+    "tex": "template.tex",
+    "reference_pdf": "template.pdf",
+    "body_marker": "\\sectionline{\\textbf{SUMMARY}}",
+    "identity_end_marker": "\\sectionline{\\textbf{EDUCATION}}",
+    "title_anchor": "Software Engineer | Example Tagline",
+    "sections": ["EDUCATION", "SUMMARY", "SKILLS", "EXPERIENCE", "PROJECTS"]
+  },
+  "overrides": {
+    "file": "verified-overrides.json",
+    "replacements": [{ "find": "GPA: 3.1", "with": "GPA: {gpa}" }],
+    "forbidden_output": ["GPA: 3.1", "GPA: 2.9"]
+  },
+  "limits": {
+    "min_page_fill": 0.3,
+    "max_model_calls": { "lean": 4, "focused": 12, "full": 16 }
+  },
+  "providers": {
+    "default": "claude",
+    "claude": { "stages": { "evaluate": { "effort": "low" }, "selection": { "effort": "low" } } },
+    "codex": { "stages": { "evaluate": { "effort": "low" }, "selection": { "effort": "low" } } }
+  }
+}

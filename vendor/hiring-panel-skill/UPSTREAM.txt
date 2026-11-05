@@ -1,0 +1,5 @@
+repository: https://github.com/alexyc9381/hiring-panel-skill
+commit: 3ec597eb85a904efd17f9171e18f1b8d9dfe4e1a
+vendored: 2026-11-04
+license: MIT
+modified: no (files are verbatim)

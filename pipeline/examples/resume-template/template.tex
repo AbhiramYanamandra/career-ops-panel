@@ -1,0 +1,35 @@
+\documentclass[a4paper,9pt]{extarticle}
+\usepackage[top=19.4pt,bottom=0pt,left=36pt,right=36pt]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{mathptmx}
+\usepackage{hyperref}
+\usepackage{xcolor}
+\hypersetup{colorlinks=true,urlcolor=blue}
+\pagestyle{empty}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0pt}
+\linespread{1.00}
+\newcommand{\sectionline}[1]{\par\noindent\textbf{#1}\par\vspace{-8pt}\noindent\rule{\linewidth}{0.7pt}\par\vspace{-0.5pt}}
+\newcommand{\titleline}[1]{\par\noindent #1\par}
+\newcommand{\plainline}[1]{\par\noindent #1\par}
+\newcommand{\bulletline}[1]{\par\noindent\hangindent=37pt\hangafter=1\hspace*{19pt}\makebox[18pt][l]{\textbullet}#1\par}
+\begin{document}
+\fontsize{9}{10.9}\selectfont
+{\centering\fontsize{15}{16}\selectfont\bfseries Jordan Example\par}\vspace{3pt}
+{\centering \fontsize{10}{11}\selectfont +00 000 000 000 | jordan@example.com | \href{https://example.com}{Website}\par}\vspace{2pt}
+{\centering \fontsize{9}{10}\selectfont Software Engineer | Example Tagline\par}\vspace{1pt}
+\sectionline{\textbf{EDUCATION}}
+\titleline{\textbf{Example University, Example City}\hfill \textit{\textbf{Mar. 2020 -- Jan. 2024}}}
+\titleline{Bachelor of Science in \textbf{Computing}\hfill \textit{\textbf{GPA: 3.1}}}
+\sectionline{\textbf{SUMMARY}}
+\plainline{Example reference page. The pipeline replaces everything from this section down.}
+\sectionline{\textbf{SKILLS}}
+\bulletline{\textbf{Programming:} Python, TypeScript}
+\sectionline{\textbf{EXPERIENCE}}
+\titleline{\textbf{Software Engineer}, Sample Logistics, Example City\hfill \textit{\textbf{Feb. 2024 -- Present}}}
+\bulletline{Reference bullet showing the approved type and spacing for this example layout.}
+\sectionline{\textbf{PROJECTS}}
+\titleline{\textbf{Route Planner}}
+\bulletline{Reference bullet showing the approved type, including \textit{italic} and $\times$ glyphs, and the spacing for this layout.}
+\end{document}

@@ -1,0 +1,34 @@
+{
+  "version": "example",
+  "profile": [
+    { "Field": "Work rights", "Value": "Citizen of Exampleland", "Status / Notes": "Example" },
+    { "Field": "GPA", "Value": "2.9", "Status / Notes": "Superseded by a verified override" }
+  ],
+  "experiences": [
+    { "experience_id": "EXP-SAMPLE", "organisation": "Sample Logistics", "role": "Software Engineer", "location": "Example City", "start": "2024-02", "end": "Present", "summary": "Backend services for a delivery platform.", "technologies": "Python; PostgreSQL; Docker", "evidence_level": "example", "notes": "" }
+  ],
+  "projects": [
+    { "project_id": "PRJ-ROUTE", "project": "Route Planner", "course_or_context": "Personal", "category": "Software", "summary": "Route optimisation tool.", "technologies": "TypeScript; React", "evidence_level": "example", "headline_priority": "High" }
+  ],
+  "evidence": [
+    { "evidence_id": "SAMPLE-API-01", "parent_id": "EXP-SAMPLE", "type": "work", "raw_fact": "Built the parcel tracking API in Python and PostgreSQL used by 40 depot staff.", "context": "Delivery platform", "action": "Designed endpoints and database indexes.", "result": "Reduced lookup time from 900 ms to 120 ms.", "metric": "900 ms to 120 ms; 40 staff", "technologies": "Python; PostgreSQL", "competencies": "API design", "role_tags": "backend", "source_doc": "Example", "source_ref_or_lines": "", "evidence_level": "example", "confidence": "high", "verified_by_user": true, "sensitive": false, "claim_restriction": "Safe to claim", "notes": "" },
+    { "evidence_id": "SAMPLE-CI-01", "parent_id": "EXP-SAMPLE", "type": "work", "raw_fact": "Team migrated deployments to Docker with a shared CI pipeline.", "context": "Team of 5 engineers", "action": "Wrote the Dockerfiles and test stage.", "result": "Team shipped releases without manual server steps.", "metric": "Team of 5", "technologies": "Docker; CI", "competencies": "Delivery", "role_tags": "devops", "source_doc": "Example", "source_ref_or_lines": "", "evidence_level": "example", "confidence": "high", "verified_by_user": true, "sensitive": false, "claim_restriction": "Use as team result", "notes": "" },
+    { "evidence_id": "SAMPLE-RAW-01", "parent_id": "EXP-SAMPLE", "type": "work", "raw_fact": "Said to have saved 30% of operating cost.", "context": "Single unverified source", "action": "", "result": "", "metric": "30%", "technologies": "", "competencies": "", "role_tags": "", "source_doc": "Example", "source_ref_or_lines": "", "evidence_level": "single-source", "confidence": "low", "verified_by_user": true, "sensitive": false, "claim_restriction": "Do not use this report alone", "notes": "" },
+    { "evidence_id": "ROUTE-UI-01", "parent_id": "PRJ-ROUTE", "type": "project", "raw_fact": "Built a React and TypeScript route editor with drag-and-drop stops.", "context": "Personal project", "action": "Implemented the editor and a nearest-neighbour route solver.", "result": "Editor recalculates a 50 stop route as stops are dragged.", "metric": "50 stops", "technologies": "React; TypeScript", "competencies": "Frontend", "role_tags": "frontend", "source_doc": "Example", "source_ref_or_lines": "", "evidence_level": "example", "confidence": "high", "verified_by_user": true, "sensitive": false, "claim_restriction": "Safe to claim", "notes": "" }
+  ],
+  "skills": [
+    { "skill": "Python", "category": "Programming", "evidence_strength": "Strong", "strongest_evidence": "Sample Logistics", "role_relevance": "Backend", "notes": "" },
+    { "skill": "TypeScript", "category": "Programming", "evidence_strength": "Medium", "strongest_evidence": "Route Planner", "role_relevance": "Frontend", "notes": "" },
+    { "skill": "PostgreSQL", "category": "Data", "evidence_strength": "Strong", "strongest_evidence": "Sample Logistics", "role_relevance": "Backend", "notes": "" }
+  ],
+  "metrics": [],
+  "star_stories": [],
+  "coursework": [],
+  "sources": [],
+  "conflicts": [
+    { "conflict_id": "C-01", "field_or_claim": "GPA", "values": "2.9 vs 3.4", "recommended_canonical": "3.4", "status": "Unresolved", "notes": "Settled by the verified override" }
+  ],
+  "role_mapping": [
+    { "role_family": "Backend", "priority_evidence": "EXP-SAMPLE", "secondary_evidence": "PRJ-ROUTE", "skills_to_surface": "Python; PostgreSQL", "claims_to_avoid": "Sole ownership of team delivery" }
+  ]
+}
